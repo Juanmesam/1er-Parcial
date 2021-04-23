@@ -1,0 +1,23 @@
+						Manual de Uso
+
+- Si desea hacer la verificacion de prender todos los leds:
+
+	Irse a la linea 41 y cambiar el valor de verificacion por true, es decir cambiar false por true, de esta manera:
+	antes: "bool valor = false;"     despues: "bool valor = true;"
+
+- Para imprimir una letra o un numero en la matriz:
+
+	Irse a la linea 45 e igualar el puntero a letra o numero que desees, siguiendo el formato
+		
+linea45: int *puntero = letraA;			int *puntero = numero1;
+
+		Ejemplos:
+
+	En caso de letras:			En caso de numeros:
+
+		letraA					numero1
+		letraB					numero2
+		letraC					numero3	
+		  .					   .
+		  .					   .	
+		  .					   . 
